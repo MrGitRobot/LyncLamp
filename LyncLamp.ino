@@ -89,23 +89,15 @@ long updateConcentrationTime() {
   long returnTime = concentrationTime;
   int now = millis();
 
-  if (userState == STATE_RED && lastUserState != STATE_RED) {
-    lastConcentrationTime = now;
-  }
-
-  else if (userState == STATE_RED && lastUserState == STATE_RED) {
-    returnTime += (now - lastConcentrationTime);
-    lastConcentrationTime = now;
-  }
-
-  else if (userState != STATE_RED && lastUserState == STATE_RED) {
+  if (lastUserState == STATE_RED) {
     returnTime += (now - lastConcentrationTime);
     lastConcentrationTime = now;
   }
 
   else {
-    ;
+    lastConcentrationTime = now;
   }
+  
   return returnTime;
 }
 
