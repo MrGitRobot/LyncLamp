@@ -13,4 +13,4 @@ From then on you cannot change to the red state any more.
 Christian Schuller
 
 ## Prototype Picture
-![alt text](https://scr.bsh-sdd.com/projects/GEDTMI/repos/lynclamp/browse/LyncLamp_Prototype.jpeg)
+![alt text](./LyncLamp_Prototype.jpeg)
