@@ -3,6 +3,7 @@ This is a simple Arduino project for indicating the status of an employee concer
 - green: Available for questions.
 - orange: Think if it is an important question.
 - red: Busy. Come again later.
+- pink: I'm in for "Kicker" 
 
 # Usage 
 Flash to Arduino. Use the connected buttons to change the state. 
