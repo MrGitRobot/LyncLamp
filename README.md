@@ -14,4 +14,4 @@ From then on you cannot change to the red state any more.
 Christian Schuller
 
 ## Prototype Picture
-![picture of the prototype](https://scr.bsh-sdd.com/projects/GEDTMI/repos/lynclamp/raw/LyncLamp_Prototype_pink.jpeg?at=refs%2Fheads%2FaddedPinkState)
+![picture of the prototype](https://raw.githubusercontent.com/MrGitRobot/LyncLamp/addedPinkState/LyncLamp_Prototype_pink.jpeg)
